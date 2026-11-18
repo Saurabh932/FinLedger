@@ -1,0 +1,30 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+
+# Configuration and validation
+pydantic-settings
+python-dotenv
+email-validator
+
+# Database and migrations
+sqlalchemy
+alembic
+asyncpg
+
+# Authentication and security
+pwdlib[argon2]
+PyJWT[crypto]
+python-multipart
+
+# External API integration (Groq)
+httpx
+
+# Redis and background processing
+redis
+celery[redis]
+
+# Monitoring and observability
+prometheus-client
+prometheus-fastapi-instrumentator
+structlog

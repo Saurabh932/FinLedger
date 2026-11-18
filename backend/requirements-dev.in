@@ -1,0 +1,12 @@
+-r requirements.in
+
+# Testing
+pytest
+pytest-asyncio
+pytest-cov
+factory-boy
+faker
+
+# Code quality and static analysis
+ruff
+mypy
